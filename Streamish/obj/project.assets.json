@@ -1565,7 +1565,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.Data.SqlClient >= 3.0.1"
+      "Microsoft.Data.SqlClient >= 3.0.1",
+      "Streamish >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1594,7 +1595,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Alex\\workspace\\Streamish\\Streamish\\Streamish.csproj": {
+              "projectPath": "C:\\Users\\Alex\\workspace\\Streamish\\Streamish\\Streamish.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1633,5 +1638,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  Streamish -> Streamish.",
+      "libraryId": "Streamish",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
