@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kc3dvDGVWJbW2M5KVrCYrEXU6Zy18nT2EUbQ3A07zTjVNWXR0LUXvk9CGR8H5siv3Obi5P5LqwN6kbmYIjlm+Q==",
-  "success": false,
+  "dgSpecHash": "TPOq7MVLdywa5+BSNplKychtWDza7gQobbO+sJZRfQpVv1efM7MpkF5nRCZVL63vjzCtOKdAQy06clFj2FUn3A==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Alex\\workspace\\Streamish\\Streamish\\Streamish.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
@@ -39,15 +39,5 @@
     "C:\\Users\\Alex\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Streamish -> Streamish.",
-      "libraryId": "Streamish",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }
